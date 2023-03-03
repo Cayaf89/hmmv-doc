@@ -17,9 +17,10 @@
         <link rel="shortcut icon" href="{{ Voyager::image($admin_favicon) }}" type="image/png">
     @endif
 
-    @vite('resources/js/app.js')
+    @vite('resources/js/admin.js')
 
     <!-- App CSS -->
+    @vite('resources/css/app.css')
     <link rel="stylesheet" href="{{ voyager_asset('css/app.css') }}">
 
     @yield('css')
